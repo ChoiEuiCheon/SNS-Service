@@ -1,0 +1,37 @@
+#root{
+    .header{
+        position:fixed;
+        top:0px;
+        // 위치를 고정시키고, 좌표를 0px로 지정
+        width:100%;
+        background-color: white;
+        
+        .wrapper{
+            margin:0 auto;
+            width:1000px;
+            height:53px;
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+
+            .logo{
+                width:124px;
+                display:flex;
+                align-items:center;
+            }
+
+        .navigation{
+            .nav-wrapper{
+                display:grid;
+                grid-template-columns: repeat(2,30px);
+                column-gap: 18px;
+
+                    .nav{
+                        display:flex;
+                        align-items: center;
+                    }   
+                }
+            }   
+        }
+    }
+}
